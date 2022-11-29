@@ -1,0 +1,189 @@
+
+h1 {
+  text-align: center;
+  font-family: Sacramento;
+  /*line-height: 2;*/
+  /*Copperplate font family or fantasy font*/
+  font-size: 5.000rem;
+  /*or can use em, 1em=100%=16px*/
+  /*margin: 40px auto 0px auto;*/
+  color:#66BFBF;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  margin: 0px auto 20px auto;
+  color:#66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: Montserrat;
+  color:#11999E;
+}
+html {
+  /*to set parent reference height for body toavoid gap at end of page*/
+    height: 100%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  color:#40514E;
+  font-family: Merriweather;
+  min-height: 100%;/*referencing html tag height it sets its min height to full page*/
+
+}
+
+.top {
+  padding-top: 30px;
+  background-color: #EAF6F6;
+}
+
+.middle {
+  margin-top: 20px;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.bottom {
+  padding-top : 40px;
+  background-color: #66BFBF;
+  border:none;
+  padding-bottom: 60px;
+}
+
+.pro:hover {
+  /*text-decoration: underline; or*/
+  background-color: black;
+  color: white;
+}
+
+.top-cloud {
+  position: relative;
+  left: 150px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+.my-pic{
+  padding-top: 50px;
+}
+.footer-link{
+  color:#11999E;
+}
+p{
+  line-height: 2;/*instead of having to put in every skill-row*/
+}
+.skill-row1{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+
+}
+.skill-row2{
+  margin: 150px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.skill-1{
+  width:25%;
+  height: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.skill-2{
+  width:30%;
+  height: 30%;
+  float:right;
+  margin-left: 30px;
+}
+.my-pic{
+  padding: 30px;
+}
+.my-desc{
+  display: inline-block;
+  width:30%;
+  padding: 30px;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+.ruler1{
+    border-style: none;
+    border-top: 8px dotted lightgrey;
+    background-color: white;
+    width: 5%;
+    margin:50px auto 90px auto;
+}
+.ruler2{
+    border-style: none;
+    border-top: 8px dotted lightgrey;
+    background-color: white;
+    width: 5%;
+    margin:50px auto 90px auto;
+}
+.btn{
+  background-color: #11999E;
+  color: white;
+  padding: 15px 25px;
+  margin: 30px 50px;
+  text-decoration: none;
+  border:none;
+  font-size: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(34,189,195,1) 0%, rgba(17,153,158,1) 100%);
+  /*border-radius: 50%;
+  /*cursor: none; for cursor to dissapear in element can use various decoration as well*/
+}
+.btn:hover{
+  color: white;
+  background: gold;
+}
+.footer-link1{
+  right:20px;
+}
+.footer-link2{
+  right:20px;
+}
+a{
+  text-decoration: none;
+}
+.footer-link1{
+  color:#11999E;
+  margin-right: 60px
+}
+.footer-link2{
+  color:#11999E;
+  margin-right: 60px
+
+}
+.footer-link3{
+  color:#11999E;
+
+}
+.tradermark-p{
+  color: white;
+  margin-top:40px;
+  font-size: 0.74rem;
+}
+.footer-link1:hover{
+  color: gold;
+
+}
+.footer-link2:hover{
+  color: gold;
+
+}
+.footer-link3:hover{
+  color: gold;
+
+}
+
+/*
+.class_name_ptag{
+clear: right/left(based on image position)
+}
+*/
